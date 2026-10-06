@@ -1,0 +1,5 @@
+x=int(input("What x to find the square root of?: "))
+g=int(input("What guess to start with?: "))
+print("current estimate square:", g**2)
+nextguess=g-(g**2-x)/(2*g)
+print("next guess:", nextguess)
